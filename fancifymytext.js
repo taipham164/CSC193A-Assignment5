@@ -1,10 +1,5 @@
 // JavaScript code for handling events
 
-// Function to show alert message
-function showAlert() {
-    alert("Hello, world!");
-}
-
 // Function to make text bigger
 function makeTextBigger() {
     var textArea = document.getElementById("textArea");
@@ -16,6 +11,9 @@ function handleRadioButtonChange() {
     var textArea = document.getElementById("textArea");
     var fancy = document.getElementById("fancy");
     var boring = document.getElementById("boring");
+
+    // Show alert when radio button changes
+    alert(`Radio button changed: ${fancy.checked ? 'FancyShmancy' : boring.checked ? 'BoringBetty' : ''}`);
 
     if (fancy.checked) {
         textArea.style.fontWeight = "bold";
