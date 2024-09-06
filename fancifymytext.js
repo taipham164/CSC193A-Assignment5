@@ -1,7 +1,11 @@
 // JavaScript code for handling events
+function helloAlert() {
+    alert("Hello, world!");
+}
 
 // Function to make text bigger
 function makeTextBigger() {
+    helloAlert();
     var textArea = document.getElementById("textArea");
     textArea.style.fontSize = "24pt";
 }
