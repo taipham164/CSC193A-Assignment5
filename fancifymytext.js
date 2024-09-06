@@ -1,6 +1,6 @@
 // JavaScript code for handling events
 function helloAlert() {
-    alert("Hello, world!");
+    alert(`Hello, world!`);
 }
 
 // Function to make text bigger
